@@ -7,7 +7,7 @@ import streamlit as st
 
 st.set_page_config(page_title="MAX PRO New Grid Project V2", layout="wide")
 BASE_DIR = Path(__file__).parent
-DATA_DIR = BASE_DIR /
+DATA_DIR = BASE_DIR
 
 SOURCE_FILES = {
     "BeSoccer": DATA_DIR / "besoccer_newgrid.csv",
