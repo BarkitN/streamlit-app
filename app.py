@@ -220,10 +220,18 @@ def compute_consensus(web_df, weights_df, source_frames, hist_df):
         else:
             weights = {}
 
-    hist_lookup = hist_df.set_index("N°").to_dict("index")
-    rows = []
-    hist_lookup = hist_df.set_index("N°").to_dict("index")
-    rows = []
+    hist_lookup = {}
+    if hist_df is not None and not hist_df.empty:
+        hist_df.columns = [str(c).strip().replace("\ufeff", "") for c in hist_df.columns]
+
+        key_col = None
+        for candidate in ["N°", "No", "N", "Match_No", "Match No", "match_no"]:
+            if candidate in hist_df.columns:
+                key_col = candidate
+                break
+
+        if key_col is not None:
+            hist_lookup = hist_df.set_index(key_col).to_dict("index")
     for _, g in web_df.iterrows():
         n = int(g["N°"])
         votes = {"1":0.0,"X":0.0,"2":0.0}
