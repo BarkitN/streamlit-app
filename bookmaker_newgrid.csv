@@ -1,0 +1,14 @@
+﻿N°,Match,Equipe1,Equipe2,League,Pick,Double,Prob_1,Prob_X,Prob_2,Raw_Odds_1,Raw_Odds_X,Raw_Odds_2,Confidence,Comment
+1,Atletico Madrid vs Barcelona,Atletico Madrid,Barcelona,Spain,,,30.9,25.67,43.43,3.19,3.84,2.27,,Imported from WEB_DATABASE.xlsx
+2,Real Mallorca vs Real Madrid,Real Mallorca,Real Madrid,Spain,,,17.49,22.01,60.5,5.64,4.48,1.63,,Imported from WEB_DATABASE.xlsx
+3,Real Betis vs Espanyol,Real Betis,Espanyol,Spain,,,56.34,22.82,20.84,1.75,4.32,4.73,,Imported from WEB_DATABASE.xlsx
+4,Stuttgart vs Borussia Dortmund,Stuttgart,Borussia Dortmund,Germany,,,41.24,23.93,34.83,2.39,4.12,2.83,,Imported from WEB_DATABASE.xlsx
+5,Freiburg vs Bayern Munich,Freiburg,Bayern Munich,Germany,,,13.83,17.43,68.74,7.11,5.64,1.43,,Imported from WEB_DATABASE.xlsx
+6,Werder Bremen vs RB Leipzig,Werder Bremen,RB Leipzig,Germany,,,26.6,24.18,49.21,3.7,4.07,2.0,,Imported from WEB_DATABASE.xlsx
+7,Hamburg vs Augsburg,Hamburg,Augsburg,Germany,,,42.13,28.0,29.87,2.34,3.52,3.3,,Imported from WEB_DATABASE.xlsx
+8,Hoffenheim vs Mainz,Hoffenheim,Mainz,Germany,,,55.36,23.08,21.56,1.78,4.27,4.57,,Imported from WEB_DATABASE.xlsx
+9,Strasbourg vs Nice,Strasbourg,Nice,France,,,51.8,26.18,22.02,1.9,3.76,4.47,,Imported from WEB_DATABASE.xlsx
+10,Brest vs Stade Rennais,Brest,Stade Rennais,France,,,30.68,27.05,42.27,3.21,3.64,2.33,,Imported from WEB_DATABASE.xlsx
+11,Lille vs Lens,Lille,Lens,France,,,35.78,28.69,35.53,2.75,3.43,2.77,,Imported from WEB_DATABASE.xlsx
+12,Lazio vs Parma,Lazio,Parma,Italy,,,52.33,27.63,20.04,1.88,3.56,4.91,,Imported from WEB_DATABASE.xlsx
+13,Verona vs Fiorentina,Verona,Fiorentina,Italy,,,22.94,27.25,49.82,4.3,3.62,1.98,,Imported from WEB_DATABASE.xlsx

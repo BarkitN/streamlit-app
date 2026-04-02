@@ -1,0 +1,14 @@
+﻿N°,Match,Equipe1,Equipe2,League,Pick,Double,Prob_1,Prob_X,Prob_2,Confidence,Comment
+1,Atletico Madrid vs Barcelona,Atletico Madrid,Barcelona,Spain,,,25,21,54,,Imported from WEB_DATABASE.xlsx
+2,Real Mallorca vs Real Madrid,Real Mallorca,Real Madrid,Spain,,,9,17,73,,Imported from WEB_DATABASE.xlsx
+3,Real Betis vs Espanyol,Real Betis,Espanyol,Spain,,,62,21,17,,Imported from WEB_DATABASE.xlsx
+4,Stuttgart vs Borussia Dortmund,Stuttgart,Borussia Dortmund,Germany,,,29,23,48,,Imported from WEB_DATABASE.xlsx
+5,Freiburg vs Bayern Munich,Freiburg,Bayern Munich,Germany,,,8,13,78,,Imported from WEB_DATABASE.xlsx
+6,Werder Bremen vs RB Leipzig,Werder Bremen,RB Leipzig,Germany,,,22,23,54,,Imported from WEB_DATABASE.xlsx
+7,Hamburg vs Augsburg,Hamburg,Augsburg,Germany,,,43,25,32,,Imported from WEB_DATABASE.xlsx
+8,Hoffenheim vs Mainz,Hoffenheim,Mainz,Germany,,,46,23,31,,Imported from WEB_DATABASE.xlsx
+9,Strasbourg vs Nice,Strasbourg,Nice,France,,,57,22,20,,Imported from WEB_DATABASE.xlsx
+10,Brest vs Stade Rennais,Brest,Stade Rennais,France,,,29,24,46,,Imported from WEB_DATABASE.xlsx
+11,Lille vs Lens,Lille,Lens,France,,,39,25,35,,Imported from WEB_DATABASE.xlsx
+12,Lazio vs Parma,Lazio,Parma,Italy,,,68,18,13,,Imported from WEB_DATABASE.xlsx
+13,Verona vs Fiorentina,Verona,Fiorentina,Italy,,,21,24,55,,Imported from WEB_DATABASE.xlsx
