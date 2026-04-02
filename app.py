@@ -211,7 +211,17 @@ def historical_analysis(web_df, hist_dict):
     return pd.DataFrame(rows), league_tables
 
 def compute_consensus(web_df, weights_df, source_frames, hist_df):
-    weights = dict(zip(weights_df["Source"], weights_df["Weight"]))
+    if weights_df is None or weights_df.empty:
+        weights = {}
+    else:
+        weights_df.columns = [str(c).strip().replace("\ufeff", "") for c in weights_df.columns]
+        if "Source" in weights_df.columns and "Weight" in weights_df.columns:
+            weights = dict(zip(weights_df["Source"], weights_df["Weight"]))
+        else:
+            weights = {}
+
+    hist_lookup = hist_df.set_index("N°").to_dict("index")
+    rows = []
     hist_lookup = hist_df.set_index("N°").to_dict("index")
     rows = []
     for _, g in web_df.iterrows():
