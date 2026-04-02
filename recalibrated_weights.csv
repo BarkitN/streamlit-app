@@ -1,0 +1,12 @@
+﻿Source,Weight,Reason
+BeSoccer,1.28,Probabilistic baseline
+Bookmaker,1.24,Market signal
+Opta,1.16,Model probability layer
+Historical,1.18,League form + rank + home/away + H2H
+TicketLocal,1.05,Local consensus backup
+EduardoLosilla,1.02,Profitability-style angle
+Windrawwin,0.98,Directional support
+Forebet,0.95,Secondary probability support
+WebPronostici,0.9,Double / score support
+SoccerVista,0.88,Context / tendency support
+WhoScored,0.86,Context support
