@@ -90,13 +90,16 @@ def safe_int(v, default=None):
 def read_csv_safe(path: Path) -> pd.DataFrame:
     if not path.exists():
         return pd.DataFrame()
-    try:
-        df = pd.read_csv(path, encoding="utf-8-sig")
-    except Exception:
+
+    for sep in [";", ","]:
         try:
-            df = pd.read_csv(path, sep=";", encoding="utf-8-sig")
+            df = pd.read_csv(path, sep=sep, encoding="utf-8-sig")
+            if df.shape[1] > 1:
+                return normalize_columns(df)
         except Exception:
-            return pd.DataFrame()
+            pass
+
+    return pd.DataFrame()
     return normalize_columns(df)
 
 
